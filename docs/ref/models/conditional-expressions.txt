@@ -182,7 +182,7 @@ their registration dates. We can do this using a conditional expression and the
     ...     ),
     ... )
     >>> Client.objects.values_list('name', 'account_type')
-    [('Jane Doe', 'G'), ('James Smith', 'R'), ('Jack Black', 'P')]
+    <QuerySet [('Jane Doe', 'G'), ('James Smith', 'R'), ('Jack Black', 'P')]>
 
 Conditional aggregation
 -----------------------
